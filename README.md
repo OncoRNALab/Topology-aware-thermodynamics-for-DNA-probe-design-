@@ -26,20 +26,19 @@ Three scoring layers are implemented in the standalone `zbox_nn_engine` package:
 ECI_02/
 ├── README.md                              ← This file
 ├── supplementary_tables/                  ← All 16 CSV files (S1–S16)
-├── R/                                     ← Figure generation scripts
-│   ├── Figure 2 and 3.R                   ← Figure 2 (6-panel empirical proof) and Figure 3 (4-panel portrait)
+├── R/                                     ← Figure generation
+│   └── Figures_2_and_3.R                  ← Figures 2 & 3 (reads S3/S4/S10/S11/S13/S14/S16)
 ├── python/                                ← Pipeline & baseline models
 │   ├── generate_supplementary_tables.py   ← Regenerates S12–S16 from raw data
 │   └── dg_model.py                        ← Scalar NN baseline (reference)
 ├── zbox_nn_engine/                        ← Z_box/N_box engine (pip-installable)
-│   ├── README.md                          ← Engine documentation
+│   ├── README.md                          ← Engine documentation 
 │   ├── __init__.py
 │   ├── nn_parameters.py                   ← SantaLucia 2004 unified NN parameters
 │   ├── island_detection.py                ← Retained island identification
 │   ├── scores.py                          ← S_ECI, N_box, Z_box,NN computation
 │   └── setup.py
-└── data/                                  ← Pre-computed data for Figure 2
-    └── fig_data/                          ← 11 CSV files for Figure 2 panels
+└── supplementary_tables/                  ← All 16 CSV files (S1–S16)
 ```
 
 ---
@@ -50,14 +49,13 @@ ECI_02/
 
 ```r
 # Install required packages (one-time)
-install.packages(c("ggplot2", "ggprism", "patchwork", "svglite", "dplyr", "readr"))
+install.packages(c("ggplot2", "ggprism", "patchwork", "svglite", "dplyr", "tidyr", "readr"))
 
-# Figure 2 and 3 — reads from supplementary_tables/
-setwd("/path/to/Supplementary tables/")
-source("R/Figure2.R")
-fig2 <- make_figure2()   # produces Fig. 2.pdf, Fig. 2.png, Fig. 2.svg
-source("R/Figure3.R")
-fig3 <- make_figure3()   # produces Fig. 3.pdf, Fig. 3.png, Fig. 3.svg
+# Generate both Figure 2 and Figure 3 — reads only from supplementary_tables/
+setwd("/path/to/ECI_02/")
+source("R/Figures_2_and_3.R")
+# Produces Fig. 2.pdf/.png/.svg and Fig. 3.pdf/.png/.svg
+```
 
 
 ### Regenerate computed tables from raw data (Python)
