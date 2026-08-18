@@ -1,0 +1,5 @@
+model,R,note,R2
+Original scalar NN relative free energy,0.798,published Deng model baseline,0.637
+Positional weights added (topology),0.828,thermodynamics with position weights,0.686
+Mismatch-dimer parameters adjusted,0.921,surface-calibrated topology-aware thermodynamics,0.848
+Matched + mismatch dimers adjusted,0.938,final MPDNN model,0.880

@@ -1,0 +1,5 @@
+Source,Mechanistic point,Numerical/detail reported,How used
+Naiser et al. [10],Mismatch discrimination is mostly determined by defect position and sequence context,Central mismatches in 16-mer examples typically reduced signal to 0-40% of perfect match,Supports position/topology dependence
+Naiser et al. [10],Double-ended zipper/partition-function model,Partition function over partially denatured states explains positional influence,Physical basis for ZboxNN
+Naiser et al. [10],PDNN inferred from zipper model,Position-dependent nearest-neighbor weighting can be derived from partial denaturation,Connects topology to nearest-neighbor thermodynamics
+Hadiwikarta et al. [13],Microarray thermodynamics can correlate with solution thermodynamics,Pearson correlation 0.855 between microarray and solution DeltaDeltaG in their analysis,Shows scalar thermodynamics is useful but platform-dependent

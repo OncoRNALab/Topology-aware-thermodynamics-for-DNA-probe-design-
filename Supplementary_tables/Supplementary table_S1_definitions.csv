@@ -1,0 +1,9 @@
+Symbol/term,Definition,Use in manuscript
+Formal matched island,Uninterrupted Watson-Crick matched run in an alignment before edge correction,Starting object for topology scoring
+Retained island,Matched island after subtracting mismatch- or gap-exposed edges,Corrects formal runs for local disruption
+L,Retained uninterrupted matched island length in nucleotides,Input to Nbox and ECI
+k or k_eff,Minimum retained paired-box length considered effective under an assay stringency,"Calibrated by temperature, buffer, concentration and readout"
+S_ECI,Sum of squared retained island lengths above threshold,Practical visual topology score
+"Nbox(L,k)",Number of contiguous retained paired boxes of length at least k within an island of length L,Combinatorial bridge explaining square-like behavior
+"Zbox,NN(k,T)",Boltzmann-weighted sum over retained boxes using nearest-neighbor DeltaG for each box,Thermodynamics with topology
+"DeltaG_full,NN",Nearest-neighbor free energy of the full aligned duplex,Thermodynamics without topology baseline

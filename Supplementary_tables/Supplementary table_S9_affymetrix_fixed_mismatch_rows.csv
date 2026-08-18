@@ -1,0 +1,11 @@
+Probe_ID,Mismatch_pattern,MM,Log2_intensity,DeltaG37_kcal_mol,Retained_cores,S_ECI,N_box_k2,N_box_k3,N_box_k4,N_box_k5,N_box_k6
+PM-A1,Perfect match,0,12.8,-27.1,14,196,91,78,66,55,45
+CL-1,Clustered,1,12.4,-25.4,20,400,190,171,153,136,120
+CL-2,Clustered,2,11.6,-22.4,14+5,221,101,84,69,56,45
+CL-3,Clustered,3,10.9,-18.7,12+4,160,72,58,46,36,28
+CL-4,Clustered,4,9.8,-17.9,11,121,55,45,36,28,21
+DS-1,Distributed,2,8.7,-22.3,5+4,41,16,9,4,1,0
+DS-2,Distributed,3,6.4,-19.0,4+3,25,9,4,1,0,0
+DS-3,Distributed,3,5.8,-18.8,3+3,18,6,2,0,0,0
+DS-4,Distributed,3,4.9,-18.6,6,36,15,10,6,3,1
+DS-5,Distributed,3,4.4,-18.7,none,0,0,0,0,0,0

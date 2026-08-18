@@ -1,0 +1,9 @@
+study,mismatches,evenly_distributed_relative_signal,randomly_distributed_relative_signal,random_to_even_signal_ratio
+Deng [8],0,1,1,1.00
+Deng [8],1,0.7,0.7,1.00
+Deng [8],2,0.36,0.52,1.40
+Deng [8],3,0.23,0.33,1.43
+Deng [8],4,0.11,0.26,2.36
+Deng [8],5,0.04,0.12,3.00
+Deng [8],6,0.02,0.11,5.50
+Deng [8],7,0.01,0.09,9.00

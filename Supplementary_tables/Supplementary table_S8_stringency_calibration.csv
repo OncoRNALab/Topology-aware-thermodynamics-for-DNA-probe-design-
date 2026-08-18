@@ -1,0 +1,5 @@
+Condition,Published/derived observation,Implication for k_eff
+"50¡C, 50% formamide",Deng et al. [8] reported that 3 evenly distributed mismatches reached the practical low-signal criterion,Higher stringency supports larger effective threshold
+"45¡C, 50% formamide",Deng et al. [8] reported that 4 evenly distributed mismatches were needed,Intermediate stringency
+"42¡C, 50% formamide",Deng et al. [8] reported that 5 evenly distributed mismatches were needed,Lower stringency requires more fragmentation
+Room temperature post-PCR LFA,Not directly measured in this manuscript,Must be calibrated empirically in final strip/buffer because shorter boxes may survive

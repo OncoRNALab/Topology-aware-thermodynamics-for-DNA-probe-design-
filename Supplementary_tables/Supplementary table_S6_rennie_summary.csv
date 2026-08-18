@@ -1,0 +1,4 @@
+feature,r,R2_or_variance_fraction,note
+"Maximum perfect-match length, 1-2 mismatch probes",0.65,0.43,Lmax explains 43% of variance in paired 1-MM vs 2-MM log2 ratios
+Mismatch position variance contribution,,0.046,Position accounted for 4.6% of total variation
+Substitution type variance contribution,,0.0095,Substitution type accounted for 0.95% of total variation
