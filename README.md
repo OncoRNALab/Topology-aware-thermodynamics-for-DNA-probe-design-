@@ -121,7 +121,7 @@ scores = compute_all_scores(
 print(scores["Zbox_ratio"])
 ```
 
-See [`zbox_nn_engine/README.md`](zbox_nn_engine/README.md) for full API documentation, scoring formulas, and usage examples.
+See (zbox_nn_engine/README.md) for full documentation, scoring formulas, and usage examples.
 
 ---
 
