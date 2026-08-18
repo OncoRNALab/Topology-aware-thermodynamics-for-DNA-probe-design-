@@ -7,12 +7,12 @@ supplementary tables (S12-S16) for the ECI_02 manuscript:
 
   "Topology-aware thermodynamics for DNA probe design under fixed stringency"
 
-Input files (in raw_data/ or a user-specified directory):
-  - "Data KRAS 17mer.txt"        Raw KRAS hybridization data
-  - "Data BRAF 17mer.txt"        Raw BRAF hybridization data
-  - "Simulated_BF_KRAS_17mer.txt"  Scalar NN predictions (KRAS)
+Input files (https://github.com/OncoRNALab/Probe-enrichment-platform):
+  - "Data KRAS c.34 G>T 17mer.txt"        Raw KRAS hybridization data
+  - "Data BRAF c.1799 T>A 17mer.txt"        Raw BRAF hybridization data
+  - "Simulated_KRAS_17mer.txt"  Scalar NN predictions (KRAS)
   - "Simulated_BRAF_17mer.txt"     Scalar NN predictions (BRAF)
-  - "final_ratio_table.csv"      10-target generalization panel
+  - "Data 10 prospective targets.txt"      10-target generalization panel
 
 Output files (in supplementary_tables/):
   - Supplementary table_S12_primary_condition_R2.csv
