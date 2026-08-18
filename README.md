@@ -2,7 +2,7 @@
 
 **Manuscript:** Van der Snickt et al., *Topology-aware thermodynamics for DNA probe design under fixed stringency.
 
-**Repository:** [https://github.com/PLACEHOLDER/ECI_02](https://github.com/OncoRNALab/Topology-aware-thermodynamics-for-DNA-probe-design-)
+**Repository:** (https://github.com/OncoRNALab/Topology-aware-thermodynamics-for-DNA-probe-design-)
 
 ---
 
