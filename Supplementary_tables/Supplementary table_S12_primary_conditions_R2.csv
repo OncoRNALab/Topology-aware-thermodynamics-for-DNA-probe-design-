@@ -1,3 +1,0 @@
-target,condition,n,S_ECI_R2,scalar_NN_R2,Zbox_R2,partial_r_Zbox_beyond_NN,partial_r_ECI_beyond_Zbox
-KRAS,"68°C, 1000 mM NaCl",605,0.4113,0.433,0.4604,0.3134,0.0138
-BRAF,"60°C, 1000 mM NaCl",606,0.4317,0.5505,0.5086,0.1571,-0.008
