@@ -2,7 +2,7 @@
 # Figure 2 and Figure 3 Generation Script
 #
 # "Topology-aware thermodynamics for DNA probe design under fixed stringency"
-# Target journal: Nucleic Acids Research
+# 
 #
 # This single script generates both manuscript figures:
 #   Figure 2: 6-panel empirical topology proof (A–F)
