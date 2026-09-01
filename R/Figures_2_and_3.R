@@ -2,7 +2,6 @@
 # Figure 2 and Figure 3 Generation Script
 #
 # "Topology-aware thermodynamics for DNA probe design under fixed stringency"
-# 
 #
 # This single script generates both manuscript figures:
 #   Figure 2: 6-panel empirical topology proof (A–F)
@@ -60,7 +59,7 @@ make_figure2_6panel <- function() {
   # ===========================================================================
   # Panel A: Seringhaus/Gerstein (36-mer)
   # ===========================================================================
-  s3 <- read_csv("supplementary_tables/Supplementary table_S3_seringhaus_reconstruction.csv",
+  s3 <- read_csv("Supplementary table_S3_seringhaus_reconstruction.csv",
                  show_col_types = FALSE) %>%
     filter(gene == "ACT1")
 
@@ -102,7 +101,7 @@ make_figure2_6panel <- function() {
   # ===========================================================================
   # Panel B: Deng/Zhou (50-mer)
   # ===========================================================================
-  s4 <- read_csv("supplementary_tables/Supplementary table_S4_deng_even_random_aggregate.csv",
+  s4 <- read_csv("Supplementary table_S4_deng_even_random_aggregate.csv",
                  show_col_types = FALSE) %>%
     pivot_longer(
       cols = c(evenly_distributed_relative_signal, randomly_distributed_relative_signal),
@@ -221,7 +220,7 @@ make_figure2_6panel <- function() {
   # ===========================================================================
   # Panel E: Affymetrix Subset Correlations
   # ===========================================================================
-  s10 <- read_csv("supplementary_tables/Supplementary table_S10_affymetrix_correlation_summary.csv",
+  s10 <- read_csv("Supplementary table_S10_affymetrix_correlation_summary.csv",
                   show_col_types = FALSE) %>%
     filter(Predictor %in% c("S_ECI", "N_box_k3", "DeltaG37_kcal_mol")) %>%
     mutate(
@@ -263,7 +262,7 @@ make_figure2_6panel <- function() {
   # ===========================================================================
   # Panel F: HPV Diagnostic Probe Audit
   # ===========================================================================
-  s11 <- read_csv("supplementary_tables/Supplementary table_S11_HPV_edge_cases.csv",
+  s11 <- read_csv("Supplementary table_S11_HPV_edge_cases.csv",
                   show_col_types = FALSE) %>%
     filter(!is.na(delta_s_eci), !is.na(exploratory_delta_delta_g37))
 
@@ -393,12 +392,12 @@ make_scatter <- function(df, x_col, x_label, show_y_axis = TRUE, show_x_title = 
 
 # ---- Assembly Function ----
 make_figure3 <- function() {
-  s16 <- read_csv("supplementary_tables/Supplementary table_S16_Fig3_per_probe_scatter_data.csv",
+  s16 <- read_csv("Supplementary table_S16_Fig3_per_probe_scatter_data.csv",
                   show_col_types = FALSE) %>%
     mutate(probe_type = factor(probe_type, levels = c("Mismatched", "MT_PM", "WT_PM")))
-  s13 <- read_csv("supplementary_tables/Supplementary table_S13_stringency_sweep.csv",
+  s13 <- read_csv("Supplementary table_S13_stringency_sweep.csv",
                   show_col_types = FALSE)
-  s14 <- read_csv("supplementary_tables/Supplementary table_S14_top_quantile_with_bootstrap_ci.csv",
+  s14 <- read_csv("Supplementary table_S14_top_quantile_with_bootstrap_ci.csv",
                   show_col_types = FALSE)
 
   # Panels A & B: Scatter
